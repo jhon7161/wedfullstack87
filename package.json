@@ -1,0 +1,14 @@
+{
+  "name": "weden-render",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "cd ../FRONT && npm run build && cd ../ && cd backendjhon && npm run build && cd ../",
+    "startt": "cd ../backendjhon && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
